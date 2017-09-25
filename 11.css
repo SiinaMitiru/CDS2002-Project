@@ -1,0 +1,12 @@
+h1{
+	text-align: center;
+	float: center;
+	margin-top: 320px;
+	font-size: 50px;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	color: black;
+}

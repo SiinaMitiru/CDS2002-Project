@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>15.Good design is not invisible</title>
+	<link rel="stylesheet" type="text/css" href="15.css">
+	<script type="text/javascript">
+		var speed1=1;
+		var timer1=null;
+		var alpha1=0;
+		function opaUp() {
+			changeopa(100);
+		}
+		function opaDown() {
+			changeopa(0);
+		}
+		function changeopa(target) {
+			clearInterval(timer1);
+			timer1=setInterval(function () 
+			{
+				if (target>alpha1) {
+					speed1=1;
+				} 
+				else {
+					speed1=-1;
+				}
+				if (target==alpha1) {
+					clearInterval(timer1);
+				} 
+				else {
+					alpha1=alpha1+speed1;
+					document.getElementById('changeopa').style.opacity=alpha1/100
+				}
+			},5)	
+		}
+		var speed2=1;
+		var timer2=null;
+		var alpha2=0;
+		function opaUp2() {
+			changeopa2(100);
+		}
+		function opaDown2() {
+			changeopa2(0);
+		}
+		function changeopa2(target) {
+			clearInterval(timer2);
+			timer2=setInterval(function () 
+			{
+				if (target>alpha2) {
+					speed2=1;
+				} 
+				else {
+					speed2=-1;
+				}
+				if (target==alpha2) {
+					clearInterval(timer2);
+				} 
+				else {
+					alpha2=alpha2+speed2;
+					document.getElementById('changeopa2').style.opacity=alpha2/100
+				}
+			},5)
+			
+		}
+		var speed3=1;
+		var timer3=null;
+		var alpha3=0;
+		function opaUp3() {
+			changeopa3(100);
+		}
+		function opaDown3() {
+			changeopa3(0);
+		}
+		function changeopa3(target) {
+			clearInterval(timer3);
+			timer3=setInterval(function () 
+			{
+				if (target>alpha3) {
+					speed3=1;
+				} 
+				else {
+					speed3=-1;
+				}
+				if (target==alpha3) {
+					clearInterval(timer3);
+				} 
+				else {
+					alpha3=alpha3+speed3;
+					document.getElementById('changeopa3').style.opacity=alpha3/100
+				}
+			},5)
+			
+		}
+		var speed4=1;
+		var timer4=null;
+		var alpha4=0;
+		function opaUp4() {
+			changeopa4(100);
+		}
+		function opaDown4() {
+			changeopa4(0);
+		}
+		function changeopa4(target) {
+			clearInterval(timer4);
+			timer4=setInterval(function () 
+			{
+				if (target>alpha4) {
+					speed4=1;
+				} 
+				else {
+					speed4=-1;
+				}
+				if (target==alpha4) {
+					clearInterval(timer4);
+				} 
+				else {
+					alpha4=alpha4+speed4;
+					document.getElementById('changeopa4').style.opacity=alpha4/100
+				}
+			},5)
+			
+		}
+		var speed5=1;
+		var timer5=null;
+		var alpha5=0;
+		function opaUp5() {
+			changeopa5(100);
+		}
+		function opaDown5() {
+			changeopa5(0);
+		}
+		function changeopa5(target) {
+			clearInterval(timer5);
+			timer5=setInterval(function () 
+			{
+				if (target>alpha5) {
+					speed5=1;
+				} 
+				else {
+					speed5=-1;
+				}
+				if (target==alpha5) {
+					clearInterval(timer5);
+				} 
+				else {
+					alpha5=alpha5+speed5;
+					document.getElementById('changeopa5').style.opacity=alpha5/100
+				}
+			},5)
+			
+		}
+		var speed6=1;
+		var timer6=null;
+		var alpha6=0;
+		function opaUp6() {
+			changeopa6(100);
+		}
+		function opaDown6() {
+			changeopa6(0);
+		}
+		function changeopa6(target) {
+			clearInterval(timer6);
+			timer6=setInterval(function () 
+			{
+				if (target>alpha6) {
+					speed6=1;
+				} 
+				else {
+					speed6=-1;
+				}
+				if (target==alpha6) {
+					clearInterval(timer6);
+				} 
+				else {
+					alpha6=alpha6+speed6;
+					document.getElementById('changeopa6').style.opacity=alpha6/100
+				}
+			},5)
+			
+		}
+		var speed7=1;
+		var timer7=null;
+		var alpha7=0;
+		function opaUp7() {
+			changeopa7(100);
+		}
+		function opaDown7() {
+			changeopa7(0);
+		}
+		function changeopa7(target) {
+			clearInterval(timer7);
+			timer7=setInterval(function () 
+			{
+				if (target>alpha7) {
+					speed7=1;
+				} 
+				else {
+					speed7=-1;
+				}
+				if (target==alpha7) {
+					clearInterval(timer7);
+				} 
+				else {
+					alpha7=alpha7+speed7;
+					document.getElementById('changeopa7').style.opacity=alpha7/100
+				}
+			},5)
+			
+		}
+		var speed8=1;
+		var timer8=null;
+		var alpha8=0;
+		function opaUp8() {
+			changeopa8(100);
+		}
+		function opaDown8() {
+			changeopa8(0);
+		}
+		function changeopa8(target) {
+			clearInterval(timer8);
+			timer8=setInterval(function () 
+			{
+				if (target>alpha8) {
+					speed8=1;
+				} 
+				else {
+					speed8=-1;
+				}
+				if (target==alpha8) {
+					clearInterval(timer8);
+				} 
+				else {
+					alpha8=alpha8+speed8;
+					document.getElementById('changeopa8').style.opacity=alpha8/100
+				}
+			},5)
+			
+		}
+	</script>
+</head>
+<body>
+	<div id="changeopa" onmouseover="opaUp()" onmouseout="opaDown()">
+		GOOD DESIGN
+	</div>
+	<div id="changeopa2" onmouseover="opaUp2()" onmouseout="opaDown2()">
+		GOOD DESIGN
+	</div>
+	<div id="changeopa3" onmouseover="opaUp3()" onmouseout="opaDown3()">
+		GOOD DESIGN
+	</div>
+	<div id="changeopa4" onmouseover="opaUp4()" onmouseout="opaDown4()">
+		GOOD DESIGN
+	</div>
+	<div id="changeopa5" onmouseover="opaUp5()" onmouseout="opaDown5()">
+		GOOD DESIGN
+	</div>
+	<div id="changeopa6" onmouseover="opaUp6()" onmouseout="opaDown6()">
+		GOOD DESIGN
+	</div>
+	<div id="changeopa7" onmouseover="opaUp7()" onmouseout="opaDown7()">
+		GOOD DESIGN
+	</div>
+	<div id="changeopa8" onmouseover="opaUp8()" onmouseout="opaDown8()">
+		GOOD DESIGN
+	</div>
+</body>
+</html>

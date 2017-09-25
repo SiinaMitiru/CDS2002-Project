@@ -1,0 +1,21 @@
+p{
+	position: relative;
+	font-size: 50px;
+}
+#sum{
+	font-size: 70px;
+}
+#one{
+	font-size: 25px;
+}
+#two{
+	font-size: 50px;
+}
+div{
+	position: relative;
+	left: -200px;
+}
+html,body{
+	overflow: hidden;
+	height: 100%;
+}

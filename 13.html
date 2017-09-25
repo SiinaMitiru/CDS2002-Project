@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>13.Call your grandparents today</title>
+	<link rel="stylesheet" type="text/css" href="13.css">
+	<!-- <script type="text/javascript" async="async" src="13.js"></script> -->
+	<script type="text/javascript">
+		function mOverG() {
+			document.getElementById("opacityG").style.opacity=0.7;
+		};
+		function mOutG() {
+			document.getElementById("opacityG").style.opacity=1;
+		};
+		function mOverA() {
+			document.getElementById("opacityA").style.opacity=0.7;
+		};
+		function mOutA() {
+			document.getElementById("opacityA").style.opacity=1;
+		};
+		function mOverR() {
+			document.getElementById("opacityR").style.opacity=0.7;
+		};
+		function mOutR() {
+			document.getElementById("opacityR").style.opacity=1;
+		};
+		function mOverN() {
+			document.getElementById("opacityN").style.opacity=0.7;
+		};
+		function mOutN() {
+			document.getElementById("opacityN").style.opacity=1;
+		};
+		function mOverD() {
+			document.getElementById("opacityD").style.opacity=0.7;
+		};
+		function mOutD() {
+			document.getElementById("opacityD").style.opacity=1;
+		};
+		function mOverP() {
+			document.getElementById("opacityP").style.opacity=0.7;
+		};
+		function mOutP() {
+			document.getElementById("opacityP").style.opacity=1;
+		};
+		function mOverE() {
+			document.getElementById("opacityE").style.opacity=0.7;
+		};
+		function mOutE() {
+			document.getElementById("opacityE").style.opacity=1;
+		};
+		function mOverT() {
+			document.getElementById("opacityT").style.opacity=0.7;
+		};
+		function mOutT() {
+			document.getElementById("opacityT").style.opacity=1;
+		};
+		function mOverS() {
+			document.getElementById("opacityS").style.opacity=0.7;
+		};
+		function mOutS() {
+			document.getElementById("opacityS").style.opacity=1;
+		};
+		function mOverCall(ele) {
+			ele.style.opacity=0.7;
+		}
+		function mOutCall(ele) {
+			ele.style.opacity=1;
+		}
+		function mClick(text){
+			var origin=document.getElementById("outPut").innerHTML;
+			var value=origin+text.innerHTML;
+			document.getElementById("outPut").innerHTML=value;
+		}
+		function cancel() {
+			document.getElementById("outPut").innerHTML=null;
+			document.getElementById("time").innerHTML=null;
+		}
+		function call(){
+			var value=document.getElementById("outPut").innerHTML
+			if (value=="GRANDPARENTS") {
+				document.getElementById("outPut").innerHTML="CONNECTED";
+				document.getElementById("time").innerHTML=Date()
+			} 
+			else {
+				alert("Wrong Number!");
+				document.getElementById("outPut").innerHTML=null;
+				document.getElementById("time").innerHTML=null;
+			}
+		}
+	</script>
+</head>
+<body style="background-color: #a4bebd">
+	<br>
+	<div align="center">
+		<ul>
+			<li id="opacityG">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverG()" onmouseout="mOutG()" onclick="mClickG()">
+					<p id="Gtext" onclick="mClick(this)">G</p>
+				</div>
+				<!-- <div onmouseover="mOver(this)" onmouseout="mOut(this)">G</div> -->
+			</li>
+			<li id="opacityR">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverR()" onmouseout="mOutR()" onclick="mClickR()">
+					<p id="Gtext" onclick="mClick(this)">R</p>
+				</div>
+			</li>
+			<li id="opacityA">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverA()" onmouseout="mOutA()" onclick="mClickA()">
+					<p id="Gtext" onclick="mClick(this)">A</p>
+				</div>
+			</li>
+			<li id="opacityN">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverN()" onmouseout="mOutN()" onclick="mClickN()">
+					<p id="Gtext" onclick="mClick(this)">N</p>
+				</div>
+			</li>
+			<li id="opacityD">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverD()" onmouseout="mOutD()" onclick="mClickD()">
+					<p id="Gtext" onclick="mClick(this)">D</p>
+				</div>
+			</li>
+			<li id="opacityP">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverP()" onmouseout="mOutP()" onclick="mClickP()">
+					<p id="Gtext" onclick="mClick(this)">P</p>
+				</div>
+			</li>
+			<li id="opacityE">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverE()" onmouseout="mOutE()" onclick="mClickE()">
+					<p id="Gtext" onclick="mClick(this)">E</p>
+				</div>
+			</li>
+			<li id="opacityT">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverT()" onmouseout="mOutT()" onclick="mClickT()">
+					<p id="Gtext" onclick="mClick(this)">T</p>
+				</div>
+			</li>
+			<li id="opacityS">
+				<svg width="100%" height="100%" version="1.1">
+					<circle cx="50" cy="50" r="50" stroke="gray" stroke-width="0" fill="#2e353b">
+				</svg>
+				<div id="G" onmouseover="mOverS()" onmouseout="mOutS()" onclick="mClickS()">
+					<p id="Gtext" onclick="mClick(this)">S</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div id="CALL" align="center" onclick="call()">
+		<p id="calltext" id="opacityCALL"  onmouseover="mOverCall(this)" onmouseout="mOutCall(this)">
+			CALL
+		</p>
+	</div>
+	<div id="CANCEL" align="center" onclick="cancel()">
+		<p id="canceltext" id="opacityCALL" onmouseover="mOverCall(this)" onmouseout="mOutCall(this)">
+			CANCEL
+		</p>
+	</div>
+	<p id="outPut"></p>
+	<p id="time"></p>
+</body>
+</html>

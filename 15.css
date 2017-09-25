@@ -1,0 +1,76 @@
+body{
+	background-image: url(background09.jpg);
+	background-repeat: repeat;
+}
+#changeopa{
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+	opacity: 0;
+	color: #bb9f87;
+	font-size: 100px;
+	border: solid 0px black;
+}
+#changeopa2{
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+	opacity: 0;
+	color: #87ba86;
+	font-size: 100px;
+	border: solid 0px black;
+}
+#changeopa3{
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+	opacity: 0;
+	color: #86bab8;
+	font-size: 100px;
+	border: solid 0px black;
+}
+#changeopa4{
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+	opacity: 0;
+	color: #8696ba;
+	font-size: 100px;
+	border: solid 0px black;
+}
+#changeopa5{
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+	opacity: 0;
+	color: #a686ba;
+	font-size: 100px;
+	border: solid 0px black;
+}
+#changeopa6{
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+	opacity: 0;
+	color: #ba869c;
+	font-size: 100px;
+	border: solid 0px black;
+}
+#changeopa7{
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+	opacity: 0;
+	color: #ba8686;
+	font-size: 100px;
+	border: solid 0px black;
+}
+#changeopa8{
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+	opacity: 0;
+	color: #bb9f87;
+	font-size: 100px;
+	border: solid 0px black;
+}

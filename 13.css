@@ -1,0 +1,83 @@
+div{
+
+}
+ul{
+	text-align: center;
+	width: 500px;
+	height: 750px;
+	margin-left: -730px;
+	background-color: #6c8c97;
+	list-style-type: none;
+	border:solid 0px black;
+}
+li{
+	position: relative;
+	left: 5px;
+	top: 50px;
+	display: inline-block;
+	border: solid 0px;
+	width: 150px;
+	height: 100px;
+}
+#hrep_black{
+	text-decoration: none;
+	color: black;
+}
+#G{
+	border: solid 0px;
+	width: 79px;
+	height: 80px;
+	position: relative;
+	left: 10px;
+	top: -95px;
+}
+#Gtext{
+	font-size: 45px;
+	position: relative;
+	top: -35px;
+	color: white;
+	border:solid 0px black;
+}
+#calltext{
+	font-size: 50px;
+	text-align: center;
+	width: 180px;
+	margin-left: -450px;
+	margin-top: 0px;
+	background-color: #12b2d2;
+	color: white;
+	border:solid 0px black;
+}
+#CALL{
+	border:solid 0px;
+	margin-left: -540px;
+	margin-top: -150px;
+}
+#canceltext{
+	font-size: 50px;
+	text-align: center;
+	width: 240px;
+	margin-left: 0px;
+	margin-top: -116px;
+	background-color: #12b2d2;
+	color: white;
+	border:solid 0px black;
+}
+#CANCEL{
+	border:solid 0px;
+	margin-left: -540px;
+}
+#outPut{
+	text-align: center;
+	font-size: 70px;
+	margin-top: -470px;
+	margin-left: 600px;
+	color: white;
+}
+#time{
+	text-align: center;
+	font-size: 10px;
+	margin-top: -50px;
+	margin-left: 600px;
+	color: white;
+}

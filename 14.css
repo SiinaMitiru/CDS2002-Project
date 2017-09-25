@@ -1,0 +1,76 @@
+p{
+	text-align: center;
+}
+#BT{
+	position: relative;
+	right: 0px;
+	top: 0px;
+}
+#T{
+	position: relative;
+	right: 50px;
+	top: 50px;
+}
+#I{
+	position: relative;
+	right: 100px;
+	top: 100px;
+}
+#P{
+	position: relative;
+	right: 150px;
+	top: 150px;
+}
+#roll1{
+	position: relative;
+	left: -800px;
+	top: -150px;
+}
+#roll2{
+	position: relative;
+	left: -560px;
+	top: -1475px;
+}
+#roll3{
+	position: relative;
+	left: -320px;
+	top: -2800px;
+}
+#roll4{
+	position: relative;
+	left: -80px;
+	top: -4125px;
+}
+#roll5{
+	position: relative;
+	left: 160px;
+	top: -5450px;
+}
+#roll6{
+	position: relative;
+	left: 400px;
+	top: -6775px;
+}
+#roll7{
+	position: relative;
+	left: 640px;
+	top: -8100px;
+}
+#roll8{
+	position: relative;
+	left: 880px;
+	top: -9425px;
+}
+#button{
+	display: block;
+	width: 130px;
+	height: 130px;
+	position: relative;
+	left: 0px;
+	top: -10300px;
+	font-size: 20px;
+}
+.alright{
+	text-align: center;
+	font-size: 100px;
+}

@@ -1,0 +1,24 @@
+#opacity1{
+	opacity: 1;
+}
+#opacity75{
+	opacity: 0.75;
+}
+#opacity5{
+	opacity: 0.5;
+}
+#opacity25{
+	opacity: 0.25;
+}
+#opacity0{
+	opacity: 0;
+}
+p{
+	font-size: 100px;
+	text-align: center;
+	color: #bb9f87;
+}
+body{
+	background-image: url(background09.jpg);
+	background-repeat: repeat;
+}
